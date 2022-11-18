@@ -1,0 +1,26 @@
+├── coverage
+│   ├── clover.xml  # clover xml格式的覆盖报告
+│   ├── coverage-final.json  # json 格式的覆盖率报告
+│   ├── lcov-report  # HTML格式的覆盖率报告
+│   │   ├── base.css
+│   │   ├── block-navigation.js
+│   │   ├── favicon.png
+│   │   ├── index.html  # 覆盖率根文件
+│   │   ├── prettify.css
+│   │   ├── prettify.js
+│   │   ├── sort-arrow-sprite.png
+│   │   ├── sorter.js
+│   │   └── sum.js.html
+│   └── lcov.info
+├── jest.config.js
+├── package.json
+├── src
+│   └── utils
+│       └── sum.js
+├── tests
+│   └── utils
+│       └── sum.test.js
+├── tree.txt
+└── yarn.lock
+
+6 directories, 18 files
