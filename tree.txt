@@ -16,11 +16,10 @@
 ├── package.json
 ├── src
 │   └── utils
-│       └── sum.js
+│       └── sum.js  # 测试文件
 ├── tests
 │   └── utils
-│       └── sum.test.js
+│       └── sum.test.js  # 测试脚本
 ├── tree.txt
 └── yarn.lock
 
-6 directories, 18 files
