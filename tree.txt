@@ -1,25 +1,18 @@
-├── coverage
-│   ├── clover.xml  # clover xml格式的覆盖报告
-│   ├── coverage-final.json  # json 格式的覆盖率报告
-│   ├── lcov-report  # HTML格式的覆盖率报告
-│   │   ├── base.css
-│   │   ├── block-navigation.js
-│   │   ├── favicon.png
-│   │   ├── index.html  # 覆盖率根文件
-│   │   ├── prettify.css
-│   │   ├── prettify.js
-│   │   ├── sort-arrow-sprite.png
-│   │   ├── sorter.js
-│   │   └── sum.js.html
-│   └── lcov.info
+├── README.md
+├── coverage # 覆盖率生成文件
+├── doc
+│   ├── 01-init.md
+│   └── 02-tsc.md
 ├── jest.config.js
 ├── package.json
 ├── src
 │   └── utils
-│       └── sum.js  # 测试文件
+│       ├── sum.js
+│       └── sum.ts
 ├── tests
 │   └── utils
-│       └── sum.test.js  # 测试脚本
+│       ├── sum.test.js
+│       └── sum.test.ts
 ├── tree.txt
+├── tsconfig.json
 └── yarn.lock
-
