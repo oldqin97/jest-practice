@@ -1,4 +1,11 @@
 module.exports = {
+  // jest每次执行测试文件都会先执行一遍这个文件
+  // setupFilesAfterEnv: [
+  //   '/Users/qin/Desktop/project/jest-course/tests/utils/jest-setup.ts',
+  // ],
+
+  testEnvironment: 'jsdom',
+
   // 修改路径简写/别名 .test.js
   moduleDirectories: ['node_modules', 'src'],
 
