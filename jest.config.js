@@ -1,4 +1,7 @@
 module.exports = {
+  // 修改路径简写/别名 .test.js
+  moduleDirectories: ['node_modules', 'src'],
+
   // ts支持
   preset: 'ts-jest',
 

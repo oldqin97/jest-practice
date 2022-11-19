@@ -1,4 +1,4 @@
-const sum = require('../../src/utils/sum');
+const sum = require('utils/sum');
 
 describe('sum', () => {
   it('sum.js plus', () => {
